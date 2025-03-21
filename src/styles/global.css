@@ -1,0 +1,186 @@
+/* Custom CSS */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  
+  background-color: #6200ea;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/src/assets/images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-section h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.hero-section .btn {
+  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.hero-section .btn:hover {
+  transform: scale(1.1);
+  background-color: #ff6f61; /* Change to a vibrant color on hover */
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Event Highlights Section */
+.event-highlights {
+  background-color: #f8f9fa;
+  padding: 5rem 0;
+}
+
+.event-highlights h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.event-highlights .card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-highlights .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.event-highlights .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.event-highlights .card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* About Section */
+.about-section {
+  padding: 5rem 0;
+  background-color: #f8f9fa; /* Light background */
+}
+
+.about-section h1 {
+  font-size: 3.5rem; /* Larger font size for the heading */
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #333; /* Dark text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8; /* Improved line height for readability */
+  color: #555; /* Dark gray text */
+  margin-bottom: 1.5rem; /* Add spacing between paragraphs */
+}
+
+.about-section .lead {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #333; /* Dark text */
+  margin-bottom: 2rem; /* Add spacing below the lead paragraph */
+}
+
+.about-section strong {
+  color: #6200ea; /* Accent color for strong text */
+  font-weight: 600;
+}
+
+.about-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.about-section img:hover {
+  transform: scale(1.05);
+}
+
+/* Add a subtle border to the container for better separation */
+.about-section .container {
+  background-color: #ffffff; /* White background for the container */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Add a hover effect to paragraphs for interactivity */
+.about-section p:hover {
+  color: #333; /* Darken text on hover */
+  transition: color 0.3s ease;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
