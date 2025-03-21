@@ -10,6 +10,7 @@ import mentalHImage from "../assets/images/mentalH.jpg";
 import emerImage from "../assets/images/emer.jpg";
 import lawImage from "../assets/images/law.jpg";
 import selfDefenseImage from "../assets/images/self-defense.jpg";
+import astro from "../assets/images/astro.jpg";
 
 const events = [
   {
@@ -42,8 +43,7 @@ const events = [
     location: "LH3004",
     description:
       "Explore the wonders of the universe! This workshop will take you on a journey through the stars, planets, and galaxies. Perfect for space enthusiasts!",
-    image:
-      "https://drive.google.com/file/d/1ADHqp6shK33a9odIe2_Vxp8dIDHmOmOK/view?usp=drive_link",
+    image: astro,
   },
   {
     title: "Emergency Protocol Demonstration",
