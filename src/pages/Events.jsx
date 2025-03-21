@@ -42,7 +42,7 @@ const events = [
     location: "LH3004",
     description:
       "Explore the wonders of the universe! This workshop will take you on a journey through the stars, planets, and galaxies. Perfect for space enthusiasts!",
-    image: "/src/assets/images/astro.jpg",
+    image: "https://drive.google.com/file/d/1ADHqp6shK33a9odIe2_Vxp8dIDHmOmOK/view?usp=drive_link",
   },
   {
     title: "Emergency Protocol Demonstration",
