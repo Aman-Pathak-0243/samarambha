@@ -3,22 +3,22 @@ import Navbar from "../components/Navbar";
 import EventCard from "../components/EventCard";
 import Footer from "../components/Footer";
 
+// Import images
+import healthImage from "../assets/images/health.png";
+import carCImage from "../assets/images/carc.jpg";
+import mentalHImage from "../assets/images/mentalH.jpg";
+import emerImage from "../assets/images/emer.jpg";
+import lawImage from "../assets/images/law.jpg";
+import selfDefenseImage from "../assets/images/self-defense.jpg";
+
 const events = [
-  // {
-  //   title: "Inauguration",
-  //   time: "5:00 PM onwards",
-  //   location: "Auditorium",
-  //   description:
-  //     "Join us for the grand opening of Samarambha 2025! Witness inspiring speeches, cultural performances, and the lighting of the ceremonial lamp. This is the perfect way to kick off an unforgettable event.",
-  //   image: "/src/assets/images/inauguration.jpg",
-  // },
   {
     title: "Multi Speciality Health Checkup Camp",
     time: "11:00 AM – 3:00 PM",
     location: "Pushkar 4th Floor",
     description:
       "Your health matters! Get free checkups from expert doctors in various fields, including cardiology, dermatology, and general medicine. Free consultations and health tips will be provided.",
-    image: "/src/assets/images/health.png",
+    image: healthImage, // Use the imported image
   },
   {
     title: "Career Counselling Session",
@@ -26,7 +26,7 @@ const events = [
     location: "LH3004",
     description:
       "Confused about your career path? Get expert advice from industry professionals and career counselors. Learn about emerging career opportunities and how to achieve your goals.",
-    image: "/src/assets/images/carc.jpg",
+    image: carCImage, // Use the imported image
   },
   {
     title: "Talk on Mental Health",
@@ -34,7 +34,7 @@ const events = [
     location: "LH3004",
     description:
       "Mental health is as important as physical health. Join us for an insightful talk by renowned psychologists on managing stress, anxiety, and maintaining a healthy work-life balance.",
-    image: "/src/assets/images/mentalH.jpg",
+    image: mentalHImage, // Use the imported image
   },
   {
     title: "Astronomy Workshop",
@@ -42,7 +42,8 @@ const events = [
     location: "LH3004",
     description:
       "Explore the wonders of the universe! This workshop will take you on a journey through the stars, planets, and galaxies. Perfect for space enthusiasts!",
-    image: "https://drive.google.com/file/d/1ADHqp6shK33a9odIe2_Vxp8dIDHmOmOK/view?usp=drive_link",
+    image:
+      "https://drive.google.com/file/d/1ADHqp6shK33a9odIe2_Vxp8dIDHmOmOK/view?usp=drive_link",
   },
   {
     title: "Emergency Protocol Demonstration",
@@ -50,7 +51,7 @@ const events = [
     location: "LH3004",
     description:
       "Learn essential emergency protocols, including first aid, fire safety, and disaster management. Be prepared to handle emergencies confidently.",
-    image: "/src/assets/images/emer.jpg",
+    image: emerImage, // Use the imported image
   },
   {
     title: "Constitutional Awareness Session",
@@ -58,7 +59,7 @@ const events = [
     location: "LH3004",
     description:
       "Understand your rights and responsibilities as a citizen. This session will cover the basics of the constitution and its importance in our daily lives.",
-    image: "/src/assets/images/law.jpg",
+    image: lawImage, // Use the imported image
   },
   {
     title: "Self Defence Workshop",
@@ -66,7 +67,7 @@ const events = [
     location: "OAT",
     description:
       "Empower yourself with self-defense techniques! This workshop will teach you practical skills to protect yourself in challenging situations.",
-    image: "/src/assets/images/self-defense.jpg",
+    image: selfDefenseImage, // Use the imported image
   },
 ];
 
