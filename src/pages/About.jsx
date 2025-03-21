@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import about from "../assets/images/about.png";
 
 const About = () => {
   const aboutTextRef = useRef(null);
@@ -27,7 +28,7 @@ const About = () => {
           <div className="row">
             <div className="col-md-6">
               <img
-                src="/src/assets/images/about.png" // Ensure this path is correct
+                src={about} // Ensure this path is correct
                 alt="About Samarambha"
                 className="img-fluid rounded shadow"
               />
